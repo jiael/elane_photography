@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
+      <ReactImageGallery/>
       <Routes>
         <Route path='/elane_photography' element={<ReactImageGallery/>}/>
         <Route path='/elane_photography/featured' element={<Featured/>}/>
