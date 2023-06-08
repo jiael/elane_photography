@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/elane_photography/static/css/main.436b082a.css",
-    "main.js": "/elane_photography/static/js/main.9255b4c8.js",
+    "main.js": "/elane_photography/static/js/main.67119489.js",
     "static/js/787.7e02326e.chunk.js": "/elane_photography/static/js/787.7e02326e.chunk.js",
     "index.html": "/elane_photography/index.html",
     "static/media/icon-close.svg": "/elane_photography/static/media/icon-close.9a132ba2a97f7c09617e.svg",
     "static/media/icon-hamburger.svg": "/elane_photography/static/media/icon-hamburger.e59188624d181b6f7b44.svg",
     "main.436b082a.css.map": "/elane_photography/static/css/main.436b082a.css.map",
-    "main.9255b4c8.js.map": "/elane_photography/static/js/main.9255b4c8.js.map",
+    "main.67119489.js.map": "/elane_photography/static/js/main.67119489.js.map",
     "787.7e02326e.chunk.js.map": "/elane_photography/static/js/787.7e02326e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.436b082a.css",
-    "static/js/main.9255b4c8.js"
+    "static/js/main.67119489.js"
   ]
 }
