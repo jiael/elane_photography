@@ -4,7 +4,7 @@ import './ReactImageGallery.css';
 import Navbar from './Navbar';
 
 const images = [
-    "/images/024.jpg",
+    "../elane_photography/images/024.jpg",//HELPPPPP
     "/images/04.jpg",
     "/images/01.jpg",
     "/images/03.jpg",
