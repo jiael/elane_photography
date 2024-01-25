@@ -23,7 +23,7 @@ const About = () => {
                         </p>
                     </div>
                     <div class="about-pic">
-                        <img src="/images/camera-photo.jpg" height={400}/>
+                        <img src="../elane_photography/images/camera-photo.jpg" height={400}/>
                     </div>
                 </div>
                    
