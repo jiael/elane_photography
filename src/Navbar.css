@@ -1,0 +1,196 @@
+body{
+    background-color: white;
+    overflow-x:hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color:black;
+  }
+  /* primary header */
+  .nav {
+    background: black;
+    position: sticky;
+    display: flex;
+    z-index: 999;
+  }
+  
+  .flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+  }
+  
+  .primary-header {
+    width:90%;
+    display:flex;
+    gap: var(--gap, 1rem);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: fixed;
+    background: white; 
+  }
+  
+  .primary-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0 0% 100%);
+  }
+  
+  @supports (backdrop-filter: blur(1.4rem)) {
+    .primary-navigation {
+      background: hsl(0 0% 100% /.7);
+      backdrop-filter: blur(1.4rem);
+    }
+  }
+  
+  .ff-source-code-pro-monospace{
+    color:black;
+    font-family: "Source Code Pro", monospace;
+    font-size: 17px;
+  }
+  
+  .ff-LOGO {
+    /* margin: 1rem; */
+    text-decoration: none;
+    color:black;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.9rem;
+  }
+  
+  .fa-instagram {
+    color:black;
+  }
+  
+  .mobile-nav-toggle {
+    width:40px;
+    height: 40px;
+    background: transparent;
+    border:none;
+    color:inherit;
+    display: none;
+  }
+  
+  @media (max-width: 35em){
+    .ff-LOGO {
+      font-size: 7.2vmin;
+    }
+    .primary-navigation {
+      --gap: 2.4em;
+      position: fixed;
+      display: flex;
+      gap: var(--gap, 1rem);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      inset:0 0 0 20%;
+      background: hsl(0 0% 100% /.75);
+      backdrop-filter: blur(1.4rem);
+      padding: min(30vh, 10rem) 2rem;
+      visibility: hidden;
+      transform: translateX(100%); /*change to 100% when fixed */
+      transition: all .7s ease-out;
+    }
+    
+    .show-nav .primary-navigation {
+      transform:translateX(0%);
+      visibility: visible;
+      
+    }
+  
+    .show-nav .mobile-nav-toggle {
+      cursor: pointer;
+      display:block;
+      position:fixed; /* or absoulte */
+      z-index: 9999;
+      background: url('/public/icons/icon-close.svg');
+      background-repeat: no-repeat;
+      width:2rem;
+      border:0;
+      aspect-ratio: 1;
+      top: 1.5rem;
+      right: 1.5rem;
+       
+    }
+  
+    .ff-source-code-pro-monospace {
+      display: block;
+      font-size: 4vw;
+      
+    }
+    .fa-instagram {
+      display:block;
+      padding:2.5rem;
+    }
+  
+    
+    .mobile-nav-toggle {
+      cursor: pointer;
+      display:block;
+      position:fixed; /* or absoulte */
+      z-index: 9999;
+      background: url('/public/icons/icon-hamburger.svg');
+      background-repeat: no-repeat;
+      width:2rem;
+      border:0;
+      aspect-ratio: 1;
+      top: 1.5rem;
+      right: 1.5rem;
+       
+    }
+    .mobile-nav-toggle:hover {
+      cursor: pointer;
+    
+    }
+  
+    .show-nav .ff-source-code-pro-monospace {
+      transform: translateY(0);
+    }
+  
+    .show-nav .fa-instagram{
+      transform: translateY(0);
+    }
+    
+    .slideInDown1 {
+      transform: translateY(200%); 
+      transition: all 0.8s ease-out;
+    }
+    .slideInDown2 {
+      transform: translateY(200%); 
+      transition: all 0.9s ease-out;
+    }
+    .slideInDown3 {
+      transform: translateY(200%); 
+      transition: all 1s ease-out;
+    }
+    .slideInDown4 {
+      transform: translateY(200%); 
+      transition: all 0.8s ease-out;
+    }
+  
+    .show-nav .slideInDown1 {
+      transform:translateY(0%);
+      visibility: visible;
+    }
+    .show-nav .slideInDown2 {
+      transform:translateY(0%);
+      visibility: visible;
+    }
+    .show-nav .slideInDown3 {
+      transform:translateY(0%);
+      visibility: visible;
+    }
+    .show-nav .slideInDown4 {
+      transform:translateY(0%);
+      visibility: visible;
+    }
+  }
+  
+  /**/
+  

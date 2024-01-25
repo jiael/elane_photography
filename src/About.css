@@ -1,0 +1,70 @@
+.profile {
+    /* style={{marginTop: '76px', paddingLeft: '5%', paddingRight:'5%', paddingTop:'2.5%', paddingBottom:'2.5%'}} */
+    margin-top: 76px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.about-container {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display:flex;
+    justify-content: right;
+}
+
+.about-text-small {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.4rem;
+    margin-bottom:0.3%;
+    margin-top:0.3%;
+}
+
+.about-text {
+    align-self: center;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.4rem;
+    padding-right: 5%;
+}
+
+.about-pic {
+    display: flex;
+    height: 400px;
+    margin: auto 0;
+}
+
+@media (max-width: 1200px){
+    .profile {
+        margin-top: 10vmin;
+        display:block;
+        font-family: "Source Code Pro", monospace;
+        font-size: 7.2vmin;
+    }
+
+    .about-container {
+        margin: 0px;
+        display:block;
+        font-family: "Source Code Pro", monospace;
+        font-size: 6vmin;
+    }
+    .about-text {
+        margin: 0;
+        font-size: 5vmin;
+    }
+
+    .about-text-small {
+        font-family: "Source Code Pro", monospace;
+        font-size: 1.4rem;
+        margin-bottom:0.1vmin;
+        margin-top:0.1vmin;
+    }
+
+    .about-pic {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+}

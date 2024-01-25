@@ -1,0 +1,70 @@
+.ff-body-text{
+    color:rgb(0, 0, 0);
+    font-family: "Source Code Pro", monospace;
+    font-size: 17px;
+  }
+
+.prev-btn, .next-btn, .fa-x{
+    z-index: 999;
+    font-size: 1.7em;
+    color: #222;
+    background: rgb(207, 205, 205);
+    opacity: 0.3;
+    padding: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.prev-btn{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.next-btn{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.prev-btn:hover {
+    opacity:1;
+}
+
+.next-btn:hover {
+    opacity:1;
+}
+
+.fa-x:hover {
+    opacity:1;
+}
+.prev-btn, .next-btn, .fa-x{
+    z-index: 999;
+    font-size: 1.7em;
+    color: #222;
+    background: rgb(207, 205, 205);
+    opacity: 0.3;
+    padding: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.prev-btn{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.next-btn{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.prev-btn:hover {
+    opacity:1;
+}
+
+.next-btn:hover {
+    opacity:1;
+}
+
+.fa-x:hover {
+    opacity:1;
+}
