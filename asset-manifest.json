@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8da271df.css",
-    "main.js": "/static/js/main.00168975.js",
-    "static/js/787.fdc711a8.chunk.js": "/static/js/787.fdc711a8.chunk.js",
-    "index.html": "/index.html",
-    "static/media/icon-close.svg": "/static/media/icon-close.9a132ba2a97f7c09617e.svg",
-    "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.e59188624d181b6f7b44.svg",
-    "main.8da271df.css.map": "/static/css/main.8da271df.css.map",
-    "main.00168975.js.map": "/static/js/main.00168975.js.map",
-    "787.fdc711a8.chunk.js.map": "/static/js/787.fdc711a8.chunk.js.map"
+    "main.css": "/jiael/elane_photography/static/css/main.220a5ade.css",
+    "main.js": "/jiael/elane_photography/static/js/main.97562959.js",
+    "static/js/787.fdc711a8.chunk.js": "/jiael/elane_photography/static/js/787.fdc711a8.chunk.js",
+    "index.html": "/jiael/elane_photography/index.html",
+    "static/media/icon-close.svg": "/jiael/elane_photography/static/media/icon-close.9a132ba2a97f7c09617e.svg",
+    "static/media/icon-hamburger.svg": "/jiael/elane_photography/static/media/icon-hamburger.e59188624d181b6f7b44.svg",
+    "main.220a5ade.css.map": "/jiael/elane_photography/static/css/main.220a5ade.css.map",
+    "main.97562959.js.map": "/jiael/elane_photography/static/js/main.97562959.js.map",
+    "787.fdc711a8.chunk.js.map": "/jiael/elane_photography/static/js/787.fdc711a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8da271df.css",
-    "static/js/main.00168975.js"
+    "static/css/main.220a5ade.css",
+    "static/js/main.97562959.js"
   ]
 }
